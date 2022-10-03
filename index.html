@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Cobasi</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Icons Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Css Próprio -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white shadow">
+        <div class="container px-3">
+            <a class="navbar-brand" href="#"><img src="img/logo.webp" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" href="#recurso">RECURSOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" href="#cupom">CUPONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" href="#assinar">ASSINATURA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" href="#contato">CONTATO</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <button class="btn download text-white"><i class="fa fa-download"></i> Download</button>
+                </ul>
+            </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="container my-5 py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Acesse por onde quiser, e de graça!</h2>
+                    <p> Acesse a Cobasi na palma de sua mão.</p>
+                    <button class="btn apple"><i class="bi bi-apple"></i> IOS Store</button>
+                    <button class="btn android"><i class="bi bi-android"></i> Play Store</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/undraw_devices.svg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recursos -->
+    <section id="recurso">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5"><i class="bi bi-truck icone"></i> Frete Grátis</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5"><i class="bi bi-stars icone"></i> Banho & Tosa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5"><i class="bi bi-credit-card icone"></i> Até 3x Sem
+                                Juros</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5"><i class="bi bi-shop icone"></i> Retire & Troque
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cupons -->
+    <section id="cupom">
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-md-12 flex-column align-items-center d-flex">
+                    <h1 class="fw-bolder texttitle">Cupons</h1>
+                    <p class="lead mb-4">Aproveite nossos cupons abaixo!</p>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fs-4 fw-bolder">Retire na Loja</h5>
+                                    <p class="card-text">5% OFF</p>
+                                    <a href="#" class="btn resgatar text-white">Resgatar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fs-4 fw-bolder">Frete Grátis</h5>
+                                    <p class="card-text">A partir de $99 em Compras</p>
+                                    <a href="#" class="btn resgatar text-white">Resgatar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fs-4 fw-bolder">Assinatura Cobasi</h5>
+                                    <p class="card-text">10% OFF em todas as Compras</p>
+                                    <a href="#" class="btn resgatar text-white">Resgatar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preços -->
+    <section id="assinar">
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-md-12 flex-column align-items-center d-flex">
+                    <h1 class="fw-bolder textpreco">Assinatura</h1>
+                    <p class="lead mb-4">Confira e Seja um Assinante!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 pt-3">
+                    <div class="card bg-light py-5 text-center border-0 d-flex align-items-center">
+                        <h6>CÃES</h6>
+                        <p class="Heading">Na lista do seu melhor amigo não pode faltar a ração que ele gosta, tapete higiênico, petiscos, vermífugos e antipulgas.</p>
+                        <br>
+                        <div class="col-md-4">
+                            <button class="btn vermais">Ver Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 pt-3">
+                    <div class="card card1 bg-light py-5 text-center border-0 d-flex align-items-center shadow">
+                        <h6>GATOS</h6>
+                        <p class="Heading">Os felinos são exigentes, por isso selecionamos só o melhor pra eles: ração, areia higiênica, sachês, vermífugos e antipulgas.</p>
+                        <br>
+                        <div class="col-md-4">
+                            <button class="btn apple">Ver Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 pt-3">
+                    <div class="card bg-light py-5 text-center border-0 d-flex align-items-center">
+                        <h6>CASA E JARDIM</h6>
+                        <p class="Heading">Pra curtir a piscina e ter plantas bonitas, é preciso cuidar sempre. Você pode assinar produtos de limpeza, cloro, fertilizantes e tudo para o seu lar doce lar.</p>
+                        <div class="col-md-4">
+                            <button class="btn vermais">Ver Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 pt-3">
+                    <div class="card card1 bg-light py-5 text-center border-0 d-flex align-items-center shadow">
+                        <h6>OUTROS PETS</h6>
+                        <p class="Heading">Peixes, aves, roedores, coelhos e répteis exigem cuidados especiais e criamos uma lista com tudo o que você precisa.</p>
+                        <br>
+                        <div class="col-md-4">
+                            <button class="btn apple">Ver Mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer ">
+        <div class="container ">
+            <div class="row"> 
+                <div class="col-md-3">
+                    <h3>CODE</h3>
+                    <pre> Landing Page Template
+ by Gyo Lima</pre>
+                </div>
+                <div class="col-md-3">
+                    <h3>Sobre</h3>
+                    <pre> Quem somos
+ Nossas lojas
+ Eventos
+ Trabalhe conosco
+ Cobasi Cuida
+ Nossos prêmios </pre>
+                </div>
+                <div class="col-md-3">
+                    <h3>Dúvidas</h3>
+                    <pre> Atendimento
+ Ajuda online
+ Política de promoções
+ Política de entregas
+ Política de privacidade</pre>
+                </div>
+                <div class="col-md-3">
+                    <h3>Redes</h3>
+                    <i class="bi bi-facebook fs-3 "></i>
+                    <i class="bi bi-instagram fs-3"></i>
+                    <i class="bi bi-twitter fs-3"></i>
+                    <i class="bi bi-youtube fs-3"></i>
+                </div>
+                <hr>
+                <p class="text-center">&copy;2022 Gyo Lima | Todos os Direitos Reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

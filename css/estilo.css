@@ -1,0 +1,72 @@
+.logo{
+    width: 20%;
+    border-radius: 10px;
+}
+.download{
+    border-radius: 10px;
+    background: #2FABC5;
+}
+.download:hover{
+    border: #010 solid 1px !important;
+    color: #010 !important;
+}
+
+/* home */
+.apple{
+    border-radius: 10px;
+    background: #FF8200;
+    color: #f1f1f1;
+}
+.android{
+    border-radius: 10px;
+    border: #2FABC5 solid 1px;
+    color: #2FABC5;
+}
+.apple:hover{
+    border: #FF8200 solid 1px !important;
+    color: #FF8200 !important;
+}
+.android:hover{
+    background: #2FABC5 !important;
+    color: #f1f1f1 !important;
+}
+
+/* recursos */
+.icone,.texttitle{
+    color: #FF8200;
+}
+
+/* cupons */
+.resgatar{
+    border-radius: 10px;
+    background: #2FABC5;
+    color: #f1f1f1;
+}
+.resgatar:hover{
+    border: #2FABC5 solid 1px !important;
+    color: #2FABC5 !important;
+}
+
+/* preco */
+
+.card1{
+    background: #ff840025 !important;
+}
+.textpreco{
+    color: #2FABC5;
+}
+.vermais{
+    border-radius: 10px;
+    border: #FF8200 solid 1px ;
+    color: #FF8200;
+}
+.vermais:hover{
+    border-radius: 10px;
+    background: #FF8200 !important;
+    color: #f1f1f1 !important;
+}
+
+/* footer */
+.footer h3{
+    color: #2FABC5;
+}
